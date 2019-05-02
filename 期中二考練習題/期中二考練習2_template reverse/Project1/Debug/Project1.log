@@ -1,0 +1,15 @@
+﻿  Source.cpp
+d:\culture\大一下\物件導向 程式設計實習\期中二考練習題\project1\project1\source.cpp(38): error C2672: 'print': 找不到相符的多載函式
+d:\culture\大一下\物件導向 程式設計實習\期中二考練習題\project1\project1\source.cpp(38): error C2782: 'void print(T [],T [],int)': 樣板 參數 'T' 模稜兩可
+  d:\culture\大一下\物件導向 程式設計實習\期中二考練習題\project1\project1\source.cpp(20): note: 請參閱 'print' 的宣告
+  d:\culture\大一下\物件導向 程式設計實習\期中二考練習題\project1\project1\source.cpp(38): note: 可能是 'int'
+  d:\culture\大一下\物件導向 程式設計實習\期中二考練習題\project1\project1\source.cpp(38): note: 或       'char'
+d:\culture\大一下\物件導向 程式設計實習\期中二考練習題\project1\project1\source.cpp(38): error C2784: 'void print(T [],T [],int)': 無法由 'int [6]'，針對 'T []' 推算 樣板 引數
+  d:\culture\大一下\物件導向 程式設計實習\期中二考練習題\project1\project1\source.cpp(20): note: 請參閱 'print' 的宣告
+d:\culture\大一下\物件導向 程式設計實習\期中二考練習題\project1\project1\source.cpp(39): error C2672: 'print': 找不到相符的多載函式
+d:\culture\大一下\物件導向 程式設計實習\期中二考練習題\project1\project1\source.cpp(39): error C2782: 'void print(T [],T [],int)': 樣板 參數 'T' 模稜兩可
+  d:\culture\大一下\物件導向 程式設計實習\期中二考練習題\project1\project1\source.cpp(20): note: 請參閱 'print' 的宣告
+  d:\culture\大一下\物件導向 程式設計實習\期中二考練習題\project1\project1\source.cpp(39): note: 可能是 'int'
+  d:\culture\大一下\物件導向 程式設計實習\期中二考練習題\project1\project1\source.cpp(39): note: 或       'double'
+d:\culture\大一下\物件導向 程式設計實習\期中二考練習題\project1\project1\source.cpp(39): error C2784: 'void print(T [],T [],int)': 無法由 'int [6]'，針對 'T []' 推算 樣板 引數
+  d:\culture\大一下\物件導向 程式設計實習\期中二考練習題\project1\project1\source.cpp(20): note: 請參閱 'print' 的宣告

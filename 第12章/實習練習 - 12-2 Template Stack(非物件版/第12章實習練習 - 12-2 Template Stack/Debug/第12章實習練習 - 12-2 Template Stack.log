@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\culture\大一下\物件導向 程式設計實習\第12章\第12章實習練習 - 12-2 template stack\第12章實習練習 - 12-2 template stack\source.cpp(33): warning C4101: 'array': 未參考的區域變數
+d:\culture\大一下\物件導向 程式設計實習\第12章\第12章實習練習 - 12-2 template stack\第12章實習練習 - 12-2 template stack\source.cpp(16): warning C4715: 'Arithmetic': 不是所有控制路徑都傳回值
+  第12章實習練習 - 12-2 Template Stack.vcxproj -> D:\Culture\大一下\物件導向 程式設計實習\第12章\第12章實習練習 - 12-2 Template Stack\Debug\第12章實習練習 - 12-2 Template Stack.exe

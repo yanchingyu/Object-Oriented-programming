@@ -1,0 +1,4 @@
+﻿  Student.cpp
+  mian.cpp
+  正在產生程式碼...
+c:\users\yan\desktop\project1\project1\mian.cpp(20): error C4700: 使用了未初始化的區域變數 'sum'

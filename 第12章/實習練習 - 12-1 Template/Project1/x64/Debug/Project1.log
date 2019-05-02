@@ -1,0 +1,12 @@
+﻿  Source.cpp
+d:\culture\大一下\物件導向 程式設計實習\第12章\實習練習 - 12-1 template\project1\source.cpp(47): warning C4244: 'return': 將 'T' 轉換為 'int'，由於類型不同，可能導致資料遺失
+          with
+          [
+              T=double
+          ]
+  d:\culture\大一下\物件導向 程式設計實習\第12章\實習練習 - 12-1 template\project1\source.cpp(66): note: 請參閱所要編譯的函式 樣板 具現化 'int BinarySearch<double>(T [],T [],T [])' 之參考
+          with
+          [
+              T=double
+          ]
+  Project1.vcxproj -> D:\Culture\大一下\物件導向 程式設計實習\第12章\實習練習 - 12-1 Template\x64\Debug\Project1.exe

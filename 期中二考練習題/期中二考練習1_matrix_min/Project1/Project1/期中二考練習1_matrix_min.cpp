@@ -2,21 +2,20 @@
 #include <vector>
 using namespace std;
 
-int min(vector<vector<int>> array) {
+int min(vector<vector<int> > array) {
 	int min = array[0][0];
-	for (int i = 0; i < 4; i++) {
-		for (int j = 0; j < 3; j++) {
-			if (min > array[i][j])
-				min = array[i][j];
+	for (int row = 0; row < array.size(); row++) {
+		for (int column = 1; column < array[row].size(); column++) {
+			if (min > array[row][column])
+				min = array[row][column];
 		}
 	}
 	return min;
 }
 
 int main() {
-	vector<vector<int>> array(4);
-	for (int i = 0; i < 4; i++)
-		array[i] = vector<int>(3);
+	const int rowSize = 4, columnSize = 3;
+	vector<vector<int> > array(rowSize,vector<int>(columnSize,0));
 
 	for (int i = 0; i < 4; i++) {
 		for (int j = 0; j < 3; j++) {

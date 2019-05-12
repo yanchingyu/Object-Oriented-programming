@@ -6,9 +6,9 @@
 using namespace std;
 
 class Point {
-public:
+private:
 	int num1, num2;
-
+public:
 	Point();
 	Point(int num1, int num2);
 

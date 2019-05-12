@@ -16,7 +16,7 @@ int main() {
 	cout << "-";
 	cout << point3.toString();
 	cout << "=";
-	cout << ((point1 + point2) - point3);
+	cout << point1 + point2 - point3;
 	
 
 	system("pause");

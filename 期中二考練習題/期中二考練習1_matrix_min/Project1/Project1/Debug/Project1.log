@@ -1,2 +1,4 @@
 ﻿  期中二考練習1_matrix_min.cpp
-  Project1.vcxproj -> D:\Culture\大一下\物件導向 程式設計實習\期中二考練習題\期中二考練習1_matrix_min\Project1\Debug\Project1.exe
+d:\culture\大一下\物件導向 程式設計實習\object-oriented-programming\期中二考練習題\期中二考練習1_matrix_min\project1\project1\期中二考練習1_matrix_min.cpp(7): warning C4018: '<': signed/unsigned 不相符
+d:\culture\大一下\物件導向 程式設計實習\object-oriented-programming\期中二考練習題\期中二考練習1_matrix_min\project1\project1\期中二考練習1_matrix_min.cpp(8): warning C4018: '<': signed/unsigned 不相符
+  Project1.vcxproj -> D:\Culture\大一下\物件導向 程式設計實習\Object-Oriented-programming\期中二考練習題\期中二考練習1_matrix_min\Project1\Debug\Project1.exe

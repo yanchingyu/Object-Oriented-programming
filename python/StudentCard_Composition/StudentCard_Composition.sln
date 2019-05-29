@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "StudentCard_Composition", "StudentCard_Composition.pyproj", "{DA172192-C1AC-44F7-B4B5-565FC2D5EE76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA172192-C1AC-44F7-B4B5-565FC2D5EE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA172192-C1AC-44F7-B4B5-565FC2D5EE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53A2498A-AA18-4F40-801D-9807423479A9}
+	EndGlobalSection
+EndGlobal

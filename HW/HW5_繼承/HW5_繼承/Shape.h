@@ -1,9 +1,5 @@
 #ifndef SHAPE_H
 #define SHAPE_H
-/*#include "Ball.h"
-#include "Circle.h"
-#include "Cube.h"
-#include "Rectangle.h"*/
 
 #include <iostream>
 #include <sstream>

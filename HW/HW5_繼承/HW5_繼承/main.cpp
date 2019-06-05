@@ -49,24 +49,24 @@ void equalVolume(Shape3D &p1, Shape3D &p2) {
 }
 
 void display(Shape &p) {
-	Shape *p1 = &p;
-	Circle *circle1 = dynamic_cast<Circle*>(p1);
-	Rectangle *rectangle1 = dynamic_cast<Rectangle*>(p1);
-	Ball *ball_1 = dynamic_cast<Ball*>(p1);
-	Cube *cube1 = dynamic_cast<Cube*>(p1);
+	Circle *circle1 = dynamic_cast<Circle*>(&p);
+	Rectangle *rectangle1 = dynamic_cast<Rectangle*>(&p);
+	Ball *ball_1 = dynamic_cast<Ball*>(&p);
+	Cube *cube1 = dynamic_cast<Cube*>(&p);
 
 	if (circle1 != NULL) {
-		cout << circle1->toString() << ", " << p.getColor() << ", " << p.getArea() << endl;
+		cout << circle1->toString();
 	}
 	if (rectangle1 != NULL) {
-		cout << rectangle1->toString() << ", " << p.getColor() << ", " << p.getArea() << endl;
+		cout << rectangle1->toString();
 	}
 	if (ball_1 != NULL) {
-		cout << ball_1->toString() << ", " << p.getColor() << ", " << p.getArea() << endl;
+		cout << ball_1->toString();
 	}
 	if (cube1 != NULL) {
-		cout << cube1->toString() << ", " << p.getColor() << ", " << p.getArea() << endl;
+		cout << cube1->toString();
 	}
+	cout << ", " << p.getColor() << ", " << p.getArea() << endl;
 }
 
 /*

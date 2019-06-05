@@ -4,19 +4,20 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
+#include <sstream>
 #include <fstream>
 using namespace std;
 
 class StuCard {
 private:
-	char name[10];
+	string *name = NULL;
 	bool sex;
 	double scoreAry[3];
 public:
 	StuCard();
-	void stuCard(string name1, bool sex, double score1, double score2, double score3);
+	void stuCard( string name1, bool sex, double score1, double score2, double score3);
 
-	void setName(string &name1);
+	void setName( string name1);
 	void setSex(bool sex);
 	void setScore(int th, double score);
 
@@ -26,7 +27,7 @@ public:
 
 	void printCard();
 
-	void writeToFile();
-	void readFromFile();
+	void writeToFile(fstream &out);
+	void readFromFile(fstream &in);
 };
 #endif 
